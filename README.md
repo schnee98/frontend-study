@@ -8,9 +8,12 @@
 
 ## Pull Request 진행방식
 1. 해당 프로젝트를 `fork` 합니다.
-2. `fork`한 원격 저장소에 아래 폴더구조를 참고하여 문제와 답변을 저장합니다.
-3. 매주 문제와 답변을 저장하고 `Pull Request`를 요청합니다.
-4. 요청한 `Pull Request`를 모두 merge 한 후, 스터디를 진행합니다.
+2. `fork`한 원격 저장소에 새로운 브랜치를 생성합니다.
+3. 원격 저장소에 아래 폴더구조를 참고하여 문제와 답변을 저장합니다.
+4. 매주 문제와 답변을 저장하고 `Pull Request`를 요청합니다.
+5. 요청한 `Pull Request`를 모두 merge 한 후, 스터디를 진행합니다.
+
+* `Pull Request` 를 요청하는 방법은 [링크](https://github.com/woowacourse/woowacourse-docs/tree/main/precourse#7-%EB%B3%B8%EC%9D%B8-%EC%9B%90%EA%B2%A9-%EC%A0%80%EC%9E%A5%EC%86%8C%EC%97%90-%EC%98%AC%EB%A6%AC%EA%B8%B0)를 참고합니다.
 
 ## 폴더구조
 ```
