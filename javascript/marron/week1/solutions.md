@@ -9,7 +9,7 @@ console.log(foo);
 
 *답*
 ```
-2
+undefined
 2
 ```
 
