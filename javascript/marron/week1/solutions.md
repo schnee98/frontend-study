@@ -9,7 +9,7 @@ console.log(foo);
 
 *답*
 ```
-2
+undefined
 2
 ```
 
@@ -21,8 +21,7 @@ console.log(foo);
 
 *답*
 ```
-2
-2
+런타임
 ```
 3. 다음 코드의 실행결과를 쓰시오.
 
