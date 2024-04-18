@@ -18,8 +18,10 @@ _답_
 
 ```js
 Promise.all([requestData1(), requestData2(), requestData3()])
-  .then(console.log)
+  .then(console.log) 매개변수 자동으로 전달해서 작동
   .catch(console.error);
+
+    .then((res) => console.log(res)); 요롷게 하면 
 ```
 
 2. 프로미스는 현재 비동기 처리가 어떻게 진행되고 있는지를 나타내는 상태 정보를 갖는다.
