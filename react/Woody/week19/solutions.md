@@ -67,31 +67,32 @@ button을 클릭했을 때 number 상태 값?
   </details>
 
 <br/>
+
 2)
-  ```js
-  import { useState } from 'react';
+```js
+import { useState } from 'react';
 
-  export default function Counter() {
-    const [number, setNumber] = useState(0);
+export default function Counter() {
+  const [number, setNumber] = useState(0);
 
-    return (
-      <>
-        <h1>{number}</h1>
-        <button onClick={() => {
-          setNumber(number + 5);
-          setNumber(n => n + 1);
-          setNumber(42);
-        }}>Increase the number</button>
-      </>
-    )
-  }
-  ```
-  결과 `42`  
+  return (
+    <>
+      <h1>{number}</h1>
+      <button onClick={() => {
+        setNumber(number + 5);
+        setNumber(n => n + 1);
+        setNumber(42);
+      }}>Increase the number</button>
+    </>
+  )
+}
+```
+결과 `42`  
 
-  이 경우에는 setNumber 함수가 다른 방식으로 상태를 업데이트합니다.  
+이 경우에는 setNumber 함수가 다른 방식으로 상태를 업데이트합니다.  
 
-  React는 *함수형 업데이트(n => n + 1)와 직접 값 업데이트(number + 5, 42)를 구별하고 각각을 별도의 상태 업데이트로 처리합니다.    
-  이 경우 각 호출이 서로 다른 값을 생성하므로 React는 배치를 통해 각 호출을 차례대로 처리하게 됩니다.
+React는 *함수형 업데이트(n => n + 1)와 직접 값 업데이트(number + 5, 42)를 구별하고 각각을 별도의 상태 업데이트로 처리합니다.    
+이 경우 각 호출이 서로 다른 값을 생성하므로 React는 배치를 통해 각 호출을 차례대로 처리하게 됩니다.
 
   <br/>
 
