@@ -1,6 +1,6 @@
 ## 1. state 큐를 구현해 보세요.
 
-[text](https://ko.react.dev/learn/queueing-a-series-of-state-updates)
+[문제링크](https://ko.react.dev/learn/queueing-a-series-of-state-updates)
 
 ## 2. 아래 코드의 handleCityChange에서 city를 변경해도 리렌더링이 되지 않습니다. 코드를 수정하고 handleCityChange 함수가 작동하지 않는 이유를 설명하세요. 
 
