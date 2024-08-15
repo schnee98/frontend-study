@@ -1,8 +1,8 @@
-# 리액트 공식문서 (2024.08.05(월))
+# 리액트 공식문서 (2024.08.15(목))
 
-[State를 보존하고 초기화하기](https://ko.react.dev/learn/preserving-and-resetting-state#challenges)<br/>
-[state 로직을 reducer로 작성하기](https://ko.react.dev/learn/extracting-state-logic-into-a-reducer)<br/>
-[Context를 사용해 데이터를 깊게 전달하기](https://ko.react.dev/learn/passing-data-deeply-with-context)
+[Reducer와 Context로 앱 확장하기](https://ko.react.dev/learn/scaling-up-with-reducer-and-context)<br/>
+[Ref로 값 참조하기](https://ko.react.dev/learn/referencing-values-with-refs)<br/>
+[Ref로 DOM 조작하기](https://ko.react.dev/learn/manipulating-the-dom-with-refs)
 
 ## 문제
 
