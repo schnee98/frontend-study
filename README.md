@@ -56,7 +56,13 @@ ${topic}/${nickname}/${week_name}/
   <tbody>
     <tr>
       <td><img src="https://github.com/user-attachments/assets/8a973d4d-4bea-4df3-bd47-5310abf82df6" alt="JavaScript Deep Dive" width="200" height="250"></td>
-      <td><img src="https://github.com/user-attachments/assets/a17105c5-efd9-4314-92c8-4473eab16a4e" alt="Modern React Deep Dive" width="200" height="250"></td>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/a17105c5-efd9-4314-92c8-4473eab16a4e" alt="Modern React Deep Dive" width="200" height="250">
+        <br>
+        <a href="https://ko.react.dev/learn">
+          <img src="https://github.com/user-attachments/assets/448321eb-2734-48b6-b6f1-c30faf108f8c" alt="[react-learn-docs](https://ko.react.dev/learn)" width="350" height="190">
+        </a>
+      </td>
       <td><img src="https://github.com/user-attachments/assets/4889a7a2-f11d-47da-a801-67dc73bd1ad7" alt="Effective TypeScript" width="200" height="250"></td>
     </tr>
   </tbody>
