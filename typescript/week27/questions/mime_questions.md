@@ -7,4 +7,5 @@ const value:Number = 12
 
 2. 다른 함수의 시그니처를 사용할 경우 어떻게 하면 될까?
 
-3.
+
+3. type과 interface 중 어떤 걸 자주 쓰시나요? 이유는?

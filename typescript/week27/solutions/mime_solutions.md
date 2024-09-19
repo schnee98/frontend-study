@@ -6,3 +6,5 @@ const value:number =12
 ```
 
 2. typeof fn
+
+3. 각자의 답변이 궁금함
