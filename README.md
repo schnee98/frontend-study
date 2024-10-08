@@ -101,6 +101,9 @@ ${topic}/${nickname}/${week_name}/
 | Week 25 (2024/08/29) |                                                                                                                   | ▣ [Effect에서 이벤트 분리하기](https://ko.react.dev/learn/separating-events-from-effects) <br> [Week 25 - Question](https://github.com/minjeongHEO/frontend-study/tree/main/react/week25)                    |                                                                                                                |
 | Week 26 (2024/09/06) |  |   | ▣ 1장: 타입스크립트 알아보기 <br> [Week 26 - Question](https://github.com/minjeongHEO/frontend-study/tree/main/typescript/week26) |
 | Week 27 (2024/09/13) |  |   | ▣ 2장: 타입스크립트의 타입 시스템 <br> ▣ 아이템6: 편집기를 사용하여 타입 시스템 탐색하기 <br> ▣ 아이템7: 타입이 값들의 집합이라고 생각하기 <br> ▣ 아이템8: 타입 공간과 값 공간의 심벌 구분하기 <br> [Week 27 - Question](https://github.com/minjeongHEO/frontend-study/tree/main/typescript/week27) |
+| Week 28 (2024/09/19) |  |   | ▣ 2장: 타입스크립트의 타입 시스템 <br> ▣ 아이템9 : 타입 단언보다는 타입 선언을 사용하기 <br> ▣ 아이템10 : 객체 래퍼 타입 피하기 <br> ▣ 아이템11 : 잉여 속성 체크의 한계 인지하기 <br> ▣ 아이템12 : 함수 표현식에 타입 적용하기 <br> ▣ 아이템13 : 타입과 인터페이스 차이점 알기 <br> ▣ 아이템14 : 타입 연산과 제너릭 사용으로 반복줄이기 <br> [Week 28 - Question](https://github.com/minjeongHEO/frontend-study/tree/main/typescript/week28) |
+| Week 29 (2024/09/27) |  |   | ▣ 2장: 타입스크립트의 타입 시스템 <br> ▣ 아이템15 : 동적 데이터에 인덱스 시그니처 사용하기 <br> ▣ 아이템16 : number 인덱스 시그니처보다는 Array, 튜플, ArrayLike를 사용하기 <br> ▣ 아이템17 : 변경 관련된 오류 방지를 위해 readonly 사용하기 <br> ▣ 아이템18 : 매핑된 타입을 사용하여 값을 동기화하기 <br> [Week 29 - Question](https://github.com/minjeongHEO/frontend-study/tree/main/typescript/week29) |
+
 
   </div>
 </details>
