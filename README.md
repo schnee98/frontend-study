@@ -106,6 +106,5 @@ ${topic}/${nickname}/${week_name}/
 | Week 29 (2024/09/27) |  |   | ▣ 2장: 타입스크립트의 타입 시스템 <br> ▣ 아이템15 : 동적 데이터에 인덱스 시그니처 사용하기 <br> ▣ 아이템16 : number 인덱스 시그니처보다는 Array, 튜플, ArrayLike를 사용하기 <br> ▣ 아이템17 : 변경 관련된 오류 방지를 위해 readonly 사용하기 <br> ▣ 아이템18 : 매핑된 타입을 사용하여 값을 동기화하기 <br> [Week 29 - Question](https://github.com/minjeongHEO/frontend-study/tree/main/typescript/week29) |
 | Week 30 (2024/10/02) |  |   | ▣ 3장 : 타입 추론 <br/> ▣ 아이템19 : 추론 가능한 타입을 사용해 장황한 코드 방지하기 <br/> ▣ 아이템20 : 다른 타입에는 다른 변수 사용하기 <br/> ▣ 아이템21 : 타입 넓히기 <br/> ▣ 아이템22 : 타입 좁히기 <br> [Week 30 - Question](https://github.com/minjeongHEO/frontend-study/tree/main/typescript/week30) |
 | Week 31 (2024/10/08) |  |   | ▣ 3장 : 타입 추론 <br/> ▣ 아이템23 : 한꺼번에 객체 생성하기 <br/> ▣ 아이템24 : 일관성 있는 별칭 사용하기 <br/> ▣ 아이템25 : 비동기 코드에는 콜백 대신 async 함수 사용하기 <br/> ▣ 아이템26 : 타입 추론에 문맥이 어떻게 사용되는지 이해하기 <br/> ▣ 아이템27 : 함수형 기법과 라이브러리로 타입 흐름 유지하기 <br> [Week 31 - Question](https://github.com/minjeongHEO/frontend-study/tree/main/typescript/week31) |
-
   </div>
 </details>
