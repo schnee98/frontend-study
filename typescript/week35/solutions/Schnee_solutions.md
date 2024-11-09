@@ -23,8 +23,8 @@ method();
 ```typescript
 // as-is (책에 있는 코드)
 function addKeyListener(
-  el: HTMLElement,
-  callback: (this: HTMLElement, e: KeyboardEvent) => void
+  el: Element,
+  callback: (this: Element, e: Event) => void
 ) {
   el.addEventListener("keydown", (e) => {
     callback.call(el, e);
@@ -32,11 +32,11 @@ function addKeyListener(
 }
 
 // to-be
-function addKeyListener(el: HTMLElement, callback: (e: KeyboardEvent) => void) {
+function addKeyListener(el: Element, callback: (e: Event) => void) {
   el.addEventListener("keydown", callback);
 }
 
-function callbackWithThisBinding(el: HTMLElement) {
+function callbackWithThisBinding(el: Element) {
   // ?
 }
 
@@ -48,17 +48,16 @@ addKeyListener(element, callbackWithThisBinding(element));
 답:
 
 ```typescript
-function addKeyListener(el: HTMLElement, callback: (e: KeyboardEvent) => void) {
-  el.addEventListener("keydown", (e) => {
-    callback(e);
-  });
-}
-
-function callbackWithThisBinding(el: HTMLElement, e: KeyboardEvent) {
-  return (e: KeyboardEvent) => {
+function callbackWithThisBinding(el: Element) {
+  return (e: Event) => {
     // something
+    // 주의: 반환함수 안에서 el을 사용하지 않으면 el이 캡처되지 않고 클로저가 생성되지 않는다.
   };
 }
+
+const element = document.querySelector(".container")!;
+
+addKeyListener(element, callbackWithThisBinding(element));
 ```
 
 3. 다음 함수 타입이 정확하지 않은 이유를 설명해주세요.
