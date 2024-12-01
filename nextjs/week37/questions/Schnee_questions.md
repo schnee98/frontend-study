@@ -1,22 +1,22 @@
-1. Object.entires 와 reduce를 사용해서 null과 undefined를 제거하는 코드를 작성해주세요.
+1. 다음은 tailwind + clsx로 status의 상태 값에 따라 다른 클래스를 주도록 만든 코드입니다. 이를 css modules + clsx로 작성해주세요 (속성은 쓸 필요 X)
 
 ```typescript
-const person = {
-  name: "schnee",
-  address: null,
-  phoneNumber: undefined,
-};
+import clsx from "clsx";
 
-const info = {}; // ?
-
-console.log(info);
+export default function InvoiceStatus({ status }: { status: string }) {
+  return (
+    <span
+      className={clsx("inline-flex items-center rounded-full px-2 py-1 text-sm", {
+        "bg-gray-100 text-gray-500": status === "pending",
+        "bg-green-500 text-white": status === "paid",
+      })}
+    >
+      // ...
+    </span>
+  );
+}
 ```
 
-2. 리액트의 JSX.Element 에는 다음 이벤트 핸들러들을 전달할 수 있습니다. 각 이벤트 핸들러의 알맞은 input 타입을 알려주세요.
+2. 폰트로 인해 누적 레이아웃 이동(Cumulative Layout Shift) 이 생기는 케이스 하나만 말해주세요.
 
-- onTouchStart
-- onWheel
-- onClick
-- onKeyDown
-
-3. 타입스크립트 코드를 컴파일하면 여러 브라우저 환경을 지원하기 위해 디버깅이 어려워지는 코드가 작성될 때가 많습니다. 이 문제를 해결하는 기능은 무엇인가요?
+3. Partial Rendering 에 대해서 설명해주세요.
