@@ -2,10 +2,10 @@
 
 ## 스터디 진행방식
 
-- 각자 매주 수요일까지 스터디 범위에 해당하는 책의 내용을 읽어옵니다.
-- 스터디 범위 안에서 4~5개의 퀴즈를 만들고, 그에 대한 퀴즈의 답변을 준비합니다.
-- 준비한 문제와 답변을 각자의 원격 저장소에 저장 후 스터디 시간 한시간 전까지 **Pull Request** 요청을 합니다.
-- 2명씩 짝지어 각자 준비해온 퀴즈를 풀어본 뒤, 다 같이 이야기해 볼만한 퀴즈를 모아서 스터디 참여인원 전원이 해당 퀴즈에 대해 토론하고 이야기합니다.
+-   각자 매주 수요일까지 스터디 범위에 해당하는 책의 내용을 읽어옵니다.
+-   스터디 범위 안에서 4~5개의 퀴즈를 만들고, 그에 대한 퀴즈의 답변을 준비합니다.
+-   준비한 문제와 답변을 각자의 원격 저장소에 저장 후 스터디 시간 한시간 전까지 **Pull Request** 요청을 합니다.
+-   2명씩 짝지어 각자 준비해온 퀴즈를 풀어본 뒤, 다 같이 이야기해 볼만한 퀴즈를 모아서 스터디 참여인원 전원이 해당 퀴즈에 대해 토론하고 이야기합니다.
 
 ## Pull Request 진행방식
 
@@ -15,7 +15,7 @@
 4. 매주 문제와 답변을 저장하고 `Pull Request`를 요청합니다.
 5. 요청한 `Pull Request`를 모두 merge 한 후, 스터디를 진행합니다.
 
-- `Pull Request` 를 요청하는 방법은 [링크](https://github.com/woowacourse/woowacourse-docs/tree/main/precourse#7-%EB%B3%B8%EC%9D%B8-%EC%9B%90%EA%B2%A9-%EC%A0%80%EC%9E%A5%EC%86%8C%EC%97%90-%EC%98%AC%EB%A6%AC%EA%B8%B0)를 참고합니다.
+-   `Pull Request` 를 요청하는 방법은 [링크](https://github.com/woowacourse/woowacourse-docs/tree/main/precourse#7-%EB%B3%B8%EC%9D%B8-%EC%9B%90%EA%B2%A9-%EC%A0%80%EC%9E%A5%EC%86%8C%EC%97%90-%EC%98%AC%EB%A6%AC%EA%B8%B0)를 참고합니다.
 
 ## 폴더구조
 
@@ -23,8 +23,8 @@
 ${topic}/${nickname}/${week_name}/
 ```
 
-- 문제 저장 예시) `javascript/schnee/week1/questions.md`
-- 답변 저장 예시) `javascript/schnee/week1/solutions.md`
+-   문제 저장 예시) `javascript/schnee/week1/questions.md`
+-   답변 저장 예시) `javascript/schnee/week1/solutions.md`
 
 ## Git Commit 컨벤션
 
@@ -110,6 +110,7 @@ ${topic}/${nickname}/${week_name}/
 | Week 33 (2024/10/23) |  |   | ▣ 4장 : 타입 설계 <br/> ▣ 아이템33 : string타입보다 더 구체적인 타입 사용하기 <br/> ▣ 아이템34 : 부정확한 타입보다는 미완성 타입을 사용하기 <br/> ▣ 아이템35 : 데이터가 아닌, API와 명세를 보고 타입 만들기 <br/> ▣ 아이템36 : 해당 분야의 용어로 타입 이름 짓기 <br/> ▣ 아이템37 : 공식 명칭에는 상표를 붙이기 <br/> [Week 33 - Question](https://github.com/minjeongHEO/frontend-study/tree/main/typescript/week33) |
 | Week 34 (2024/10/29) |  |   | ▣ 5장 : any 다루기 <br/> ▣ ㄴ 아이템 38: any 타입은 가능한 한 좁은 범위에서만 사용하기 <br/> ▣ ㄴ 아이템 39: any를 구체적으로 변형해서 사용하기 <br/> ▣ ㄴ 아이템 40: 함수 안으로 타입 단언문 감추기 <br/> ▣ ㄴ 아이템 41: any의 진화를 이해하기 <br/> ▣ ㄴ 아이템 42: 모르는 타입의 값에는 any 대신 unknown을 사용하기 <br/> ▣ ㄴ 아이템 43: 몽키 패치보다는 안전한 타입을 사용하기 <br/> ▣ ㄴ 아이템 44: 타입 커버리지를 추적하여 타입 안전성 유지하기 <br/> [Week 34 - Question](https://github.com/minjeongHEO/frontend-study/tree/main/typescript/week34) |
 | Week 35 (2024/11/10) |  |   | ▣ 6장 : 타입 선언과 @types <br/> ▣ 아이템 45: devDependencies에 typescript와 @types 추가하기 <br/> ▣ 아이템 49: 콜백에서 this에 대한 타입 제공하기 <br/> ▣ 아이템 50: 오버로딩 타입보다는 조건부 타입을 사용하기 <br/> ▣ 아이템 51: 의존성 분리를 위해 미러 타입을 사용하기 <br/> ▣ 아이템 52: 테스팅 타입의 함정에 주의하기 <br/> [Week 35 - Question](https://github.com/minjeongHEO/frontend-study/tree/main/typescript/week35) |
+| Week 36 (2024/11/17) |  |   | ▣ 7장: 코드를 작성하고 실행하기 <br/> ▣ 아이템 53: 타입스크립트 기능보다는 ECMAScript 기능을 사용하기 <br/>▣ 아이템 54: 객체를 순회하는 노하우 <br/>▣ 아이템 55: DOM 계층 구조 이해하기 <br/>▣ 아이템 56: 정보를 감추는 목적으로 private 사용하지 않기 <br/>▣ 아이템 57: 소스맵을 사용하여 타입스크립트 디버깅하기 <br/> [Week 36 - Question](https://github.com/minjeongHEO/frontend-study/tree/main/typescript/week36) |
 
   </div>
 </details>
