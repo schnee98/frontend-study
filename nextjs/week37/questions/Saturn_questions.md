@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 1. Next.js의 <Image> 컴포넌트를 사용했을 때의 장점은?
-=======
-1. Next.js의 `<Image>` 컴포넌트를 사용했을 때의 장점은?
->>>>>>> upstream/main
 
 2. Next.js에서 사용하는 대표적인 CSS styling 방법 두가지는?
 
