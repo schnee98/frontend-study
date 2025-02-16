@@ -30,7 +30,7 @@ useQuery({ queryKey: ['todos', { page, status, other: undefined }], ... })
 
 - 비교 방법은 직렬화 (serialize) 가능한지, `JSON.stringify()` 로 비교하여 같은지 확인함.
 
-- 소스 코드 [queryClient.ts](https://github.com/TanStack/query/blob/main/packages/query-core/src/queryClient.ts#L650-L655), [utils.ts](https://github.com/TanStack/query/blob/main/packages/query-core/src/utils.ts#L205-L228), [useBaseQuery.ts](https://github.com/TanStack/query/blob/main/packages/react-query/src/useBaseQuery.ts#L73-L75)
+- 소스 코드 [queryClient.ts](https://github.com/TanStack/query/blob/main/packages/query-core/src/queryClient.ts#L650-L655), [utils.ts](https://github.com/TanStack/query/blob/main/packages/query-core/src/utils.ts#L205-L228), [useBaseQuery.ts](https://github.com/TanStack/query/blob/main/packages/react-query/src/useBaseQuery.ts#L56)
 
 ```ts
 // queryClient.ts
@@ -78,9 +78,7 @@ export function hashKey(queryKey: QueryKey | MutationKey): string {
 // useBaseQuery.ts
 export function useBaseQuery(options) {
   // ...
-  const isNewCacheEntry = !client
-    .getQueryCache()
-    .get(defaultedOptions.queryHash);
+  const defaultedOptions = client.defaultQueryOptions(options);
 }
 ```
 
