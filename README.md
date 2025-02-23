@@ -20,11 +20,12 @@
 ## 폴더구조
 
 ```
-${topic}/${nickname}/${week_name}/
+ ${topic}/${weekName}/${questions}/${nickname}_questions.md
+ ${topic}/${weekName}/${solutions}/${nickname}_solutions.md
 ```
 
-- 문제 저장 예시) `javascript/schnee/week1/questions.md`
-- 답변 저장 예시) `javascript/schnee/week1/solutions.md`
+- 문제 저장 예시) `javascript/week1/questions/Schnee_questions.md`
+- 답변 저장 예시) `javascript/week1/solutions/Schnee_solutions.md`
 
 ## Git Commit 컨벤션
 
