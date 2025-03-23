@@ -1,6 +1,6 @@
 # 👨‍🏫 week 51 - A
 
-## Query Invalidation, Invalidations from Mutations, Updates from Mutation Responses
+## Query Invalidation, Invalidations from Mutations, Updates from Mutation Responses, Optimistic Updates
 
 ### 1️⃣ Q. invalidateQueries로 쿼리를 무효화하면 발생하는 2가지 일에 대해 설명해주세요
 
