@@ -14,7 +14,7 @@ const renderWithHooks = () => {
     : HooksDispatcherOnUpdate;
 
   isFirstRender.current = false;
-}
+};
 
 const SlowList = memo(function SlowList({ text }: { text: string }) {
   let items = [];
