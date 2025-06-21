@@ -9,7 +9,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest",
-    "test:ui": "vitest --ui"
+    "test:ui": "vitest --ui",
+    "test:useOptimistic": "vitest run src/__test__/useOptimistic/useOptimistic.test.tsx"
   },
   "dependencies": {
     "react": "^19.1.0",
