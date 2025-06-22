@@ -25,8 +25,10 @@ interface Message {
 
 const owner = testConfig.owner!;
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-let useCustomOptimistic: any;
+let useCustomOptimistic: (
+  baseState: Message[],
+  reducer: (state: Message[], value: string) => Message[]
+) => [Message[], (value: string) => void];
 
 beforeAll(async () => {
   useCustomOptimistic = await loadCustomHook("useOptimistic", owner);
