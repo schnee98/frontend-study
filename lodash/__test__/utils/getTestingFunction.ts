@@ -6,7 +6,7 @@ async function getTestingFunction() {
     throw new Error("Name and owner are required");
   }
 
-  const mod = await import(`../src/${name}/${owner}-${name}.ts`);
+  const mod = await import(`../../src/${name}/${owner}-${name}.ts`);
   return mod.default;
 }
 
