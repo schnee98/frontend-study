@@ -8,8 +8,12 @@
     "lint": "eslint .",
     "test": "node scripts/runTest.js"
   },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
+    "@types/lodash": "^4.17.19",
     "@types/node": "^24.0.3",
     "cross-env": "^7.0.3",
     "eslint": "^9.25.0",
