@@ -26,4 +26,4 @@ function curry(fn: Function) {
 }
 curry.placeholder = placeholder;
 
-export { curry };
+export default curry;
