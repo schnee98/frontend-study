@@ -7,8 +7,7 @@ function groupBy<T>(
     : Object.values(_collection);
 
   return collection.reduce<Record<string, T[]>>((result, item) => {
-    const key =
-      typeof iteratee === "string" ? iteratee : String(iteratee(item));
+    const key = typeof iteratee === "string" ? iteratee : iteratee(item);
 
     if (result[key] == null) {
       result[key] = [];
