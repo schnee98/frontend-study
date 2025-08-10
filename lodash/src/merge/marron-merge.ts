@@ -24,7 +24,7 @@ function merge<TObject extends object | any[], TSource extends object | any[]>(
     });
   }
 
-  return {} as TObject & TSource;
+  return object as TObject & TSource;
 }
 
 export default merge;
