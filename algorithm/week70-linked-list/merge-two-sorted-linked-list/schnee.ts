@@ -8,7 +8,7 @@ class ListNode {
   }
 }
 
-class Solution1 {
+class Solution {
   mergeTwoLists(list1: ListNode | null, list2: ListNode | null) {
     const first = new ListNode();
     let node = first;
